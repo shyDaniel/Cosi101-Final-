@@ -1,3 +1,6 @@
+# loaded datasets, associated building_ids with site_ids. Next step is to normalize time, think about how to process large 
+# weather data in weather_train. Target output should be meter_reading. 
+
 import pandas as pd
 from sklearn import tree
 from sklearn.model_selection import cross_validate
